@@ -1,0 +1,236 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+
+/*HEADER CON FONDO NEGRO*/
+header {display: flex;
+        justify-content: space-between;
+        background-color: rgb(57, 50, 50);
+        color: white;
+        width: 100%;
+}
+#ladoizquierdo {display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+                width: 210px;
+}
+
+#ladoizquierdo p {font-size:2rem;padding-left: 10px;}
+#ladoizquierdo p::before {content: "Shop"; color: red;}
+
+#ladoderecho {  width: 40%;
+                background-color: rgb(57, 50, 50);
+                display: flex;
+                justify-content: flex-end;
+                align-items:center;
+                padding: 20px;
+}
+#btn-menu {display: none;}/*desaparece y deja el lugar para los demas elementos*/
+
+#ladoderecho label {
+        display: none;
+        width: 27px;
+        height: 27px;
+        padding: 10px;
+        padding-right: 10px;
+}
+#ladoderecho label:hover{
+        cursor: pointer; /*cuando pase la flecha por encima del icono de menu, en vez de flechita voy a tener una manito*/
+}
+
+#ladoderecho nav ul {
+        padding:0;
+        display: flex;
+        margin:20px;
+}
+
+#ladoderecho nav ul li{padding:10px; background-repeat: 1px solid white;}
+#ladoderecho nav ul li:hover {
+        cursor: pointer;
+        background: rgba(0,0,0, 0.3);
+}
+
+/*BANNER*/
+#banner {display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 512px;
+        color: white;
+        background-image: url('/imagenes/fondo.png');
+        background-position: center;
+        background-attachment: fixed;
+}
+#banner h1 {font-size: 2.5rem;
+            font-weight: bold;
+            padding: 30px 90px;
+}
+
+#banner h1::before {content: "25%"; 
+                    color: red; 
+                    padding-right: 10px;
+}
+
+buttom {background-color: red;
+        border: 2px solid red;
+        font-size: 25px;
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 16px;
+        transition: background-color 0.5, color 0.5;
+}
+buttom:hover {  transform: scale(1.25);
+                background-color: white;
+                color: red;
+                cursor: pointer;
+}
+
+/*PRODUCTOS DESTACADOS Y PRODUCTOS ESTRELLA*/
+#P_D_y_E {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 249, 249);
+}
+
+/*PRODUCTOS DESTACADOS*/
+
+h2 {font-size: 2.5rem;
+    padding: 40px;
+    text-align: center;
+}
+#productosdestacados {  display: flex;
+                        flex-direction: column;
+                        padding: 40px;
+}
+
+#seccioncards {display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                width: 100vw;
+}
+
+.card { display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 265px;
+        height: 322px;
+        background-color: white;
+        margin: 30px;
+}
+.card:hover {   transform: scale(1.3);
+                cursor: pointer;
+}
+
+.card img {padding-bottom: 30px; align-self: center;}
+
+hr {border: 1px solid black}
+
+.preciocuotaenvio {display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+.precio {font-size: 20px; 
+        font-weight: bold;
+}
+.cuotas {font-size: 13px;}
+.envio-gratis {font-size: 10px; 
+                color: rgb(109, 224, 144);
+}
+
+/*PRODUCTOS ESTRELLA*/
+
+#seccionestrellas { display: flex;
+                    justify-content: space-around;
+                    flex-wrap: wrap;
+}
+
+#sillas-gamer,
+#computadoras { width: 361px; 
+                height: 135px;
+                margin: 30px;
+                color: white;
+}
+
+#sillas-gamer {background-image: url('/imagenes/sillasgamer.png');}
+#computadoras {background-image: url('/imagenes/computadoras.png');}
+
+.texto {font-size: 25px;
+        position: relative;
+        padding: 53px 10px 53px 200px;
+}
+.texto:hover {  transform: translateX(-70px);
+                cursor: pointer;
+}
+
+/*FOOTER*/
+footer {display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(57, 50, 50);
+    color: white;
+    padding: 15px;
+}
+
+#redessociales {display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 25px;
+                width: 400px;
+                padding-top: 20px;
+                
+}
+#redessociales i {  padding: 40px;
+                    font-size: 40px;
+}
+
+#fb:hover {color: blue; cursor: pointer;}
+#tw:hover {color: rgb(60, 164, 212); cursor: pointer;}
+#ig:hover {color: rgb(187, 48, 192); cursor: pointer;}
+
+#derechosreservados {display: flex;
+        justify-content: center;
+        padding: 10px;
+        font-size: 10px;
+        font-weight: bold;
+        background-color: rgb(247, 247, 247);
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width:768px){
+        #banner h1 {text-align: center;
+        }
+        #ladoderecho label {display: block;}
+        #carrito {display:none;}
+        nav {   position: absolute;
+                background: rgb(57, 50, 50);
+                width: 50%;
+                display: none;
+                /*margin-right: -80%;*//*ESTO ES PARA QUE DESAPAREZCA DE LA PANTALLA CUANDO APAREZCA EL MENU HAMBURGUESA*/
+                transition: all 0.5s;
+        }
+        
+        #ladoderecho nav ul {flex-direction: column;}
+
+        #ladoderecho nav ul li {
+                text-align: center;
+                border-top: 1px solid white;
+        }
+
+        #btn-menu:checked ~ nav {/*el simbolo ~ seguido del selector, hace que cuando se haga click en el input llame al selector elegido*/
+                display: block;
+                margin: 0;
+                margin-top: 260px;
+        }
+        footer {flex-direction: column;
+                align-items: center;
+        }
+}

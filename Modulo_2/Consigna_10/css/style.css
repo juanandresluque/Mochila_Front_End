@@ -1,0 +1,222 @@
+html{
+    height: 1024px;
+    width: 1044px;
+    border: 0px solid blueviolet;
+    margin: 0px 0px 0px 0px;
+    background-color: rgba(243, 243, 243, 1);
+}
+body{
+    margin: 0px 0px 0px 0px;
+    height: 1024px;
+    width: 1044px;
+    margin: solid 0px orange;
+    background-color: rgba(243, 243, 243, 1);
+}
+#header{
+    position: relative;
+    border: 0px  red;
+    position: relative;
+    margin:0px 0px 0px 0px ;
+    width: 1044px;
+    height: 74px;
+    box-shadow:0px 0px 20px 0px black;
+}
+#descuentos{
+    font-weight: bold;
+    position:absolute;
+    top:0px;
+    background-color: rgba(28, 209, 176, 1);
+    height: 25px;
+    width: 1444px;
+    margin:0px 0px 0px 0px;
+}
+#primero{
+    position: relative;
+    bottom: 9px;
+    left: 10px;
+    font-size: 13px;
+}
+#segundo{
+    position:relative;
+    left: 13px;
+    bottom: 8px;
+    font-size: 20px;
+    font-style: normal;
+}
+#Heroes{
+    font-weight: bold;
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+    background-color: rgba(0, 102, 159, 1);
+    height:50px;
+    top:25px;
+    width: 1444px;
+
+    text-align:unset;
+}
+#contenedor3{
+    background-color: #E5E5E5;
+}
+#contenedor{
+    border: 0px solid rgb(160, 9, 9);
+    height: 532px;
+    width: 1500px;
+    position: relative;
+    margin: 151px 40px;
+}
+#subcontenedor{
+    border: solid 0px black;
+    height: 193px;
+    width: 1300px;
+}
+.back{
+    border: solid 0px royalblue;
+    position: relative;
+    right: 1434px;
+    margin-right: 180px;
+    top: 87px;
+    padding: 88px 149px;
+    border-top-left-radius:20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px 0px 10px 0px black;     
+}
+#back1{
+    background-size: cover;
+    background-image:url(/img/batman1.png)}
+#back2{
+    background-size: cover;
+    background-image: url(/img/Harley.png);
+}
+#back3{
+    background-size: cover;
+    background-image: url(/img/fortaleza.png);
+}
+#subcontenedor2{
+    position:relative;
+    border: 0px solid lawngreen;
+    height:118px;
+    width:783px;
+    margin-left: 90px;
+    margin-right:89px;
+    margin-top: 105px;
+}
+.icono{
+    position:relative;
+    border:0px solid darkred;   
+    height:118px;
+    width:120px;
+    top: 50px; 
+    padding: 50px 60px;
+    margin-right: 363px;
+    margin-top: 500px;
+    border-radius: 100px;
+}
+#icono1{
+    background-size: cover;
+    background-image: url(/img/Batman.png);
+}
+#icono2{
+    background-size: cover;
+    background-image: url(/img/herley\ q.png);
+}
+#icono3{
+    background-size: cover;
+    background-image: url(/img/super\ man.png);
+}
+
+#subcontenedor3{
+    position:absolute;
+    border: 0px solid grey;
+    top:250px;
+    left: 80px;
+    width: 1200px;
+}
+#titulos{
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.titulo{
+    position:relative;
+    border: 0px solid gold; 
+    margin-right: 290px;
+    top:0px;
+}
+
+#titulo3{
+    position: relative;
+    right: 0px;
+    margin-right: 0px;
+    right: 19px;
+}
+.sub{
+    border: solid 0px black;
+    position:relative;
+    padding: 160px 150px;
+    top: 355px;
+    left: 2px;
+    margin-right: 179px;
+    margin-left: 0px;
+    background-color: #E5E5E5;
+    box-shadow: 0px 0px 10px 0px black;
+}
+#primertext{
+    position: absolute;
+    bottom: 30px;
+    border: 0px solid black;
+    padding: 50px 20px;
+}
+#segundotext{
+    position: absolute;
+    bottom:30px;
+    border: 0px solid black;
+    left: 490px;
+    padding: 50px 28px;
+}
+#tercertext{
+    position: relative;
+    bottom:0px ;
+    top: 80px;
+    border: 0px solid black;
+    left: 960px;
+    padding: 50px 28px;
+}
+#vermas{
+    position: absolute;
+    border: solid black 0px;
+    left: 110px;
+    bottom: 10px;
+    padding:  0px 20px;
+    background-color: rgba(0, 102, 159, 1);
+    ;
+}
+
+#vermas2{
+    position: absolute;
+    border: solid black 0px;
+    left: 590px;
+    bottom: 10px;
+    padding:  0px 20px;
+    background-color: rgba(0, 102, 159, 1);
+}
+#vermas3{
+    position: absolute;
+    border: solid black 0px;
+    left: 1080px;
+    bottom: 10px;
+    padding:  0px 20px;
+    background-color: rgba(0, 102, 159, 1);
+   
+}
+#footer{
+    position: relative;
+    top: 60px;
+    width: 1440px;
+    background-color: rgba(0, 102, 159, 1);
+    border: solid 1px transparent ;
+}
+#textfo{
+    position: relative;
+    margin-left: 16px;
+    color: #FFF9F9;
+}

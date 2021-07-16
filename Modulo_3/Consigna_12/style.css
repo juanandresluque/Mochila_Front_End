@@ -1,0 +1,212 @@
+*{
+        margin: 0em;    
+}
+body{
+        size:unset;
+}
+header{
+        width: 100%;
+}
+.he{
+        background-color: rgba(0, 0, 0, 1);
+        display: flex;
+        justify-content:space-between;        
+}
+#idioma{
+        margin-right: 2em;
+}
+#grand{
+        margin-left: 11em;
+}
+#espa{
+        margin-right: 2em;        
+}
+
+.Lblancas{
+        color:white;
+}
+#main{
+        background-image: url(/img/bowl-and-pet-daities-on-green-background\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: solid px black;
+        height: 35em;
+        display: flex;
+        align-items:flex-end;
+        justify-content:flex-end;      
+}
+#primerlogo{
+        display: flex;
+        height: 4em;
+        width: 4em;
+
+}
+#Esun{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        width: 11em;        
+        border: px solid black ;
+        border-radius: 0.2em;
+        width: 11.5em;
+        height: 1.5em;
+        font-size: 2.5em;
+        margin-bottom: 0.6em;
+
+}
+#descuento{
+        margin-bottom: 2em;
+        
+}
+#escrit{
+        margin-right: 1em;
+        margin-bottom: 9.2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+#comedeross{
+        background-color: #F0A83E;
+        border: px solid black;
+        height: 2em;
+        width: 7em;
+        padding: 0.3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2em;
+        letter-spacing: 0.07em;
+}
+#huellasi{
+        display: flex;
+        justify-content: center;
+        margin-top: 3em;
+        height:5em;
+        width:5em;
+        border: px solid black;
+}
+#contenedortres{
+        border: px solid violet;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2em;
+}
+#productosd{
+        margin-top: 0.2em;
+        color: #3C2313;
+        font-size: 4em;
+        margin-bottom: 1em;
+}
+#coma{
+        color: #666666;
+        font-size: 1.5em;
+}
+#sect1{
+        background-color:#F0A83E;
+}
+#iconos{
+        display: flex;
+        justify-content: space-around;
+        margin-top:4em;
+        
+}
+#iconosp{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+}        
+#primera{
+        background-color: #F0A83E;
+        box-shadow: black;
+        display: flex;
+        justify-content: space-between;
+}
+#primera section{
+        margin-right: 4em;
+}
+#formulario{
+        border: px red solid ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+#contactanos{
+        margin-top: 4em;
+        font-size: 2em;
+        color: #3C2313;
+        margin-bottom: 0.9em;
+}
+.formu{
+        margin-bottom: 1em;
+        display: flex;
+}
+.formul{
+        padding:1em 5em;
+        display: flex;
+        border-radius: 1.5em;
+        color:#FFFFFF;
+        background-color: #3C2313;
+}
+.envi{ 
+        margin-right: 0.5em;
+                
+}
+#resetear{
+        border-radius: 0.8em;
+        background-color: #8A8787;
+}
+#enviar{
+        border-radius: 0.8em;
+        padding: 0em 1.5em ;
+        height: 1.7em;
+        background-color: #F0A83E       ;
+}
+#suscribete{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color:#F0A83E;
+        padding: 0.6em;
+        margin-top: 4em;
+}
+
+#masnove{
+        margin-left: 1em;
+        display: flex;
+        align-items:center;
+}
+#emailsus{
+        border-right: 2em;
+        margin-right: 2em;
+}
+#susmail{
+        margin-right: 1em;
+}
+#antefoo{
+        background-color: #3C2313;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+footer{
+        display: flex;
+        justify-content:center;
+        background-color: #222222;
+}
+.Lgrey{
+        color:#8A8787;
+}
+.iconitos{
+        height:4.8em;
+        width:7em;
+        margin-left:3em;
+        display: flex;
+        margin-top: 2em;
+}
+#sectdos{
+        margin-bottom: 2em;
+}
+.iconitos span{
+        margin-right: 2em;
+}
